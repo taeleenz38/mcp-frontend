@@ -3,7 +3,7 @@ import Chat from "./components/Chat";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen">
+    <div className="flex justify-center ml-auto w-4/5 h-screen">
       <Chat />
     </div>
   );
