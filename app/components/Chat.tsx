@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Chat = () => {
   return (
-    <div className="w-full fixed bottom-24 flex justify-center">
-      <div className="flex flex-col w-3/5 p-6 border-2 border-gray-500 rounded-xl">
+    <div className="w-full fixed bottom-12 flex justify-center">
+      <div className="flex flex-col w-3/5 p-6 border-2 border-gray-800 rounded-xl">
         <input
           className="mb-3 outline-none focus:outline-none focus:ring-0 focus:border-transparent"
           placeholder="Ask anything"
